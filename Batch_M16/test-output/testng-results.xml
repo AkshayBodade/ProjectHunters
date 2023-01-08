@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-06T13:42:05 IST" name="Default suite" finished-at="2023-01-06T13:42:05 IST" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2023-01-06T13:42:05 IST" name="Default test" finished-at="2023-01-06T13:42:05 IST" duration-ms="63">
+      <class name="TestData.Test_2">
+        <test-method is-config="true" signature="BS()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="BS" finished-at="2023-01-06T13:42:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="BT" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="BC" finished-at="2023-01-06T13:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="BM" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="test()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="test" finished-at="2023-01-06T13:42:05 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="AM" finished-at="2023-01-06T13:42:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="BM" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="test1()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="test1" finished-at="2023-01-06T13:42:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="AM" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="AC" finished-at="2023-01-06T13:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="AT" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:TestData.Test_2@59309333]" started-at="2023-01-06T13:42:05 IST" name="AS" finished-at="2023-01-06T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- TestData.Test_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

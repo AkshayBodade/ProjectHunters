@@ -1,0 +1,19 @@
+package Demo;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		int n=0,n1=1,n2,c=5,i=1;
+		while(i<=c)
+		{
+			n2=n+n1;
+			System.out.println(n2);
+			n1=n2;
+			n=n1;
+			i++;
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}

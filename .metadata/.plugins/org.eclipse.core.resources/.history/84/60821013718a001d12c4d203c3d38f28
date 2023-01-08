@@ -1,0 +1,56 @@
+package Demo3;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import net.bytebuddy.utility.RandomString;
+
+public class Test11 {
+
+	public static void main(String[] args) throws Exception{
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/login.php");
+		
+		WebElement email=driver.findElement(By.xpath("//input[@id='email']"));
+		Actions act=new Actions(driver);
+		act.keyDown(email,Keys.SHIFT).sendKeys("bug").keyUp(Keys.SHIFT).sendKeys("spotter").build().perform();
+		//ctrl+a
+		act.keyDown(Keys.CONTROL).sendKeys("a").build().perform();
+		//ctrl+c
+		act.keyDown(Keys.CONTROL).sendKeys("c").build().perform();
+		//ctrl+v
+		driver.findElement(By.xpath("//input[@name='pass']")).click();
+		act.keyDown(Keys.CONTROL).sendKeys("v").build().perform();
+		 String RM=RandomString.make(3);
+		
+		/* TakesScreenshot ts=(TakesScreenshot) driver;
+         File src=ts.getScreenshotAs(OutputType.FILE);
+         File destn=new File("C:\\Users\\devra\\eclipse-workspace\\Batch_M16\\Screenshots\\Facebook.png");
+         FileUtils.copyFile(src,destn);
+         
+         driver.close();*/
+         
+      /*   Thread.sleep(3000);
+         WebElement pass=driver.findElement(By.xpath("//input[@id='pass']"));
+         File src1=pass.getScreenshotAs(OutputType.FILE);
+         File destn1=new File("C:\\Users\\devra\\eclipse-workspace\\Batch_M16\\Screenshots\\pass.png");
+         FileUtils.copyFile(src1,destn1);
+         driver.close();
+         */
+		// TODO Auto-generated method stub
+
+	}
+
+}

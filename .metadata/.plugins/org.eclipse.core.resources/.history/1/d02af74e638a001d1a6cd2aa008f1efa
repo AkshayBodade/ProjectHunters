@@ -1,0 +1,40 @@
+package TestData;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Test_3 {
+	WebDriver driver;
+@BeforeMethod
+public void SetUP() {
+	WebDriverManager.chromedriver().setup();
+	
+	WebDriver driver=new ChromeDriver();
+	
+	driver.get("https://www.facebook.com/login.php");
+	driver.manage().window().maximize();
+}
+@Test
+public void testA(){
+	System.out.println("TestA");
+}
+
+@Test
+public void testB() {
+	System.out.println("TestB");
+}
+@Test
+public void testC(){
+	System.out.println("TestC");
+}
+@AfterMethod
+public void Close()
+{
+	driver.close();
+}
+}
